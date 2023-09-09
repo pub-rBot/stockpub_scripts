@@ -1,5 +1,5 @@
 # What's Inside?
-- Scripts to download preprocessed SEC company facts dataset from stockPub
+- Scripts to download preprocessed SEC company facts datasets from stockPub
   - Page link: <https://www.stockpub.ai/godata/SEC-Company-Facts-Dataset>
 - Visualization demo using the stockPub dataset
 
@@ -123,7 +123,7 @@ Details about each parameter is documented in the settings.py file.
 
 A time-lapse visualization demo is also included in the repository. The demo folder is located under sec_companyfacts folder. It contains many annotated scripts to help you get you started in analyzing and manipulating the dataset.
 
-Details about how to run the demo is included in its Readme.md
+Details about how to run the demo is included in its README.md
 
 # Helpful Notes
 
