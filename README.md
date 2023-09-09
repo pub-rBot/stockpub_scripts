@@ -66,13 +66,9 @@ For more detailed instruction on getting IPFS daemon running, you can follow the
 
 Clone or download this repository
 
-After acquiring the source code
+After acquiring the source code, open a terminal window.
 
-Open a terminal window
-
-Navigate to your local source code folder where requirements.txt and exec.py are located.
-
-***IMPORTANT: Windows users need to extend the maximum character limit for file path beyond default value of 256***
+Navigate to your local source code folder, should be named stockpub_scripts.
 
 Type in these commands:
 
@@ -80,11 +76,19 @@ Type in these commands:
 pip install -r requirements.txt
 ```
 
+Depending on your Python set up, in your terminal window, type in:
+
 ```commandline
 python exec.py
 ```
 
-By default, the dataset will be downloaded to stockpub_data folder. The folder can be found parallel to the folder where exec.py is located.
+or
+
+```commandline
+python3 exec.py
+```
+
+By default, the dataset will be downloaded to stockpub_data folder. The folder will be in the same directory as stockpub_scripts.
 
 Details about the dataset can be found at:
 <https://stockpub.ai/pubmanual/SEC-Company-Facts-Dataset-Details>
