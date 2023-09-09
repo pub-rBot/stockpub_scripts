@@ -1,0 +1,9 @@
+requests==2.31.0
+pandas==2.0.3
+pyarrow==13.0.0
+numpy==1.25.2
+
+# viz_demo requirements
+altair==5.0.1
+vl-convert-python==0.12.0
+Pillow==10.0.0
