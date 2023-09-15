@@ -66,6 +66,14 @@ For more detailed instruction on getting IPFS daemon running, you can follow the
 
 Clone or download this repository
 
+* If you have git installed, open a terminal window and type in the following command:
+
+```commandline
+git clone git@github.com:pub-rBot/stockpub_scripts.git
+```
+
+* To download as a .zip file, find <>Code button, then Download as ZIP
+
 After acquiring the source code, open a terminal window.
 
 Navigate to your local source code folder, should be named stockpub_scripts.

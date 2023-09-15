@@ -129,8 +129,10 @@ sys.modules[src_module_name] = settings
 spec.loader.exec_module(settings)
 
 DATA_SIZE_default = str(20)
+DATA_SIZES = [20, 100, 500]
 try:
     DATA_SIZE = settings.DATA_SIZE
+    DATA_SIZE = max(x for x in DATA_SIZES if x <= DATA_SIZE)
     DATA_SIZE = str(DATA_SIZE)
     try:
         data_slice = sp_index_cids[(sp_index_cids['idx_type'] == "data") & (sp_index_cids['idx_id'] == DATA_SIZE)]
