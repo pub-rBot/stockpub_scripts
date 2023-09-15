@@ -72,7 +72,7 @@ Clone or download this repository
 git clone git@github.com:pub-rBot/stockpub_scripts.git
 ```
 
-* To download as a .zip file, find <>Code button, then Download as ZIP
+* To download as a .zip file, find the <>Code button at the top on the repo page, then Download ZIP
 
 After acquiring the source code, open a terminal window.
 
