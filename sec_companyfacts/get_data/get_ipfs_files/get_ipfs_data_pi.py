@@ -128,7 +128,7 @@ data_cids_index = pd.DataFrame()
 DATA_SIZES = [20, 100, 500]
 try:
     DATA_SIZE = settings.DATA_SIZE
-    DATA_SIZE = max(x for x in DATA_SIZES if x <= DATA_SIZE)
+    DATA_SIZE = max([x for x in DATA_SIZES if x <= DATA_SIZE])
     DATA_SIZE = str(DATA_SIZE)
     try:
         data_cids_index_filename = "".join(["data_cids_index_", DATA_SIZE, ".feather"])
