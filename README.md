@@ -1,6 +1,6 @@
 # What's Inside?
 - Scripts to download preprocessed SEC company facts datasets from stockPub
-  - Page link: <https://www.stockpub.ai/godata/SEC-Company-Facts-Dataset>
+  - Page link: <https://www.stockpub.net/godata/SEC-Company-Facts-Dataset>
 - Visualization demo using the stockPub dataset
 
 # Prerequisites
@@ -25,7 +25,7 @@ You can find installation instructions here:
 ## File Sharing Protocol
 If you have suggestion(s) on how we can sustainably release the dataset to the public using a better method, send us a message through our contact page. We appreciate your input(s).
 
-<https://stockpub.ai/contact>
+<https://stockpub.net/contact>
 
 ## IPFS
 IPFS is the protocol used to share the dataset.
@@ -99,7 +99,7 @@ python3 exec.py
 By default, the dataset will be downloaded to stockpub_data folder. The folder will be in the same directory as stockpub_scripts.
 
 Details about the dataset can be found at:
-<https://stockpub.ai/pubmanual/SEC-Company-Facts-Dataset-Details>
+<https://stockpub.net/pubmanual/SEC-Company-Facts-Dataset-Details>
 
 ## Interacting With the Dataset
 
